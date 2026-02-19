@@ -4,7 +4,7 @@ import cv2
 import numpy as nx_pydot
 
 #load image
-img = cv2.imread("coin.jpeg")
+img = cv2.imread("opencv\level5\coin.jpeg")
 
 #gray image
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
